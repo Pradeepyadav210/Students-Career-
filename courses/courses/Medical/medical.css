@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    /* background-color: rgb(152, 203, 186); */
+}
+body::before {
+    content: "";
+    background-image: url('bag.jpg'); 
+    opacity: 0.1;
+    position: fixed;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place it behind other content */
+ }
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+p {
+    margin-top: 10px;
+}
+a{
+text-decoration: none;
+}
